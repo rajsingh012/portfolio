@@ -1,0 +1,55 @@
+@import './_variable.less';
+.portfolio__section {
+    padding: 40px 20px;
+    text-align: center;
+    &--boxwrap {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        text-align: left;
+        height: 80vh;
+        overflow: scroll;
+        padding-bottom: 100px;
+    }
+    &--imgsection {
+        flex: 1 1 33%;
+        box-sizing: border-box;
+        margin-bottom: -5px;
+        position: relative;
+        &:hover {
+            .portfolio__section {
+                &--hoverview {
+                    transform: translateY(0%) scaleY(1);
+                }
+            }
+        }
+    }
+    &--imglist {
+        border: 1px solid;
+        width: 100%;
+    }
+    &--hoverview {
+        transform: translateY(-50%) scaleY(0);
+        position: absolute;
+        top: 1px;
+        left: 1px;
+        transition: all 0.3s ease-in-out;
+        padding: 15px;
+        background: linear-gradient(to right, #222f3d,#222f3d,rgba(34,47,61,0.9),#222f3d,#222f3d);
+        color: #fff;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        box-sizing: border-box;
+        align-items: flex-end;
+    }
+    &--plusicon {
+        max-width: 20px;
+        .iconcss_common();
+        .iconsmasking('/Public/img/plus.svg');
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,117 @@
+@import './_variable.less';
+.aboutus__section {
+    width: 100%;
+    text-align: center;
+    &--heading {
+        font-size: 60px;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    &--colortext {
+        color: @primaryColor;
+        margin-left: 5px;
+    }
+}
+.aboutus__mainwrap {
+    display: flex;
+    margin-top: 50px;
+    &--leftbox {
+        width: 50%;
+        padding: 20px;
+        text-align: left;
+    }
+    &--leftboxlist {
+        display: flex;
+    }
+    &--rightbox {
+        width: 50%;
+        padding: 20px;
+        text-align: left;
+    }
+    &--personal {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    &--nameheading {
+        font-weight: 200;
+        margin-bottom: 25px;
+    }
+    &--name {
+        font-weight: 600;
+        line-height: 25px;
+    }
+    &--innerleft {
+        width: 50%;
+    }
+    &--innerright {
+        width: 50%;
+        margin-left: 10px;
+    }
+    &--experience {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    &--mainexp {
+        flex: 1 1 50%;
+        padding-right: 10px;
+        box-sizing: border-box;
+        &:nth-child(even) {
+            padding-right: 0;
+        }
+        &:last-child {
+            padding-right: 0;
+        }
+    }
+    &--expbox {
+        border: 1px solid @primaryColor;
+        padding: 30px 20px;
+        margin-bottom: 15px;
+    }
+    &--boxvalue {
+        font-size: 45px;
+        color: @primaryColor;
+        margin-bottom: 10px;
+        font-weight: 700;
+        display: flex;
+        align-items: flex-start;
+    }
+    &--plusicon {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    &--boxcontent{
+        position: relative;
+        line-height: 20px;
+        padding-left: 50px;
+        &::before {
+            position: absolute;
+            width: 35px;
+            height: 2px;
+            background: @textColor;
+            left: 0px;
+            top: 8px;
+            content: '';
+        }
+    }
+    &--downloadcv {
+        background:@primaryColor;
+        padding: 12px 30px;
+        border-radius: 30px;
+        text-decoration: none;
+        color: #fff;
+        display: inline-block;
+        transform: scale(1);
+        transition: .5s ease all;
+        &:hover {
+            transform: scale(1.05);
+            transition: .5s ease all;
+        }
+    }
+    &--downloadimg {
+        max-width: 20px;
+        .iconcss_common();
+        .iconsmasking('/Public/img/download.svg');
+        background: #fff;
+        margin-left: 5px;
+    }
+}

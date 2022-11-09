@@ -1,0 +1,118 @@
+@import './_variable.less';
+
+.commonCss {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.contactus__section {
+    text-align: center;
+    &--innersection {
+        display: flex;
+        padding: 40px;
+    }
+    &--leftside {
+        width: 40%;
+        text-align: left;
+    }
+    &--rightside {
+        width: 60%;
+        text-align: left;
+        padding: 10px;
+    }
+    &--getintouch {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    &--para {
+        line-height: 30px;
+    }
+    &--emailicon {
+        .iconcss_common();
+        .iconsmasking('/Public/img/mail.svg');
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    &--callicon {
+        .iconcss_common();
+        .iconsmasking('/Public/img/telephone.svg');
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+    }
+    &--listing {
+        display: flex;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    &--mailheading {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+    &--headingvalue {
+        font-weight: 500;
+    }
+    &--mainullist {
+        margin-top: 15px;
+    }
+    &--formflex {
+        display: flex;
+    }
+    &--fromgroup {
+        width: 50%;
+        box-sizing: border-box;
+        padding-right: 10px;
+        position: relative;
+        margin-bottom: 20px;
+    }
+    &--inputtype {
+        height: 45px;
+        border-radius: 30px;
+        border: 0;
+        padding-left: 40px;
+        width: 100%;
+        box-sizing: border-box;
+        &:focus {
+            outline: none;
+        }
+    }
+    &--usericon {
+        .iconcss_common();
+        .iconsmasking('/Public/img/user.svg');
+        .commonCss;
+    }
+    &--mailinicon {
+        .iconcss_common();
+        .iconsmasking('/Public/img/mail.svg');
+        .commonCss;
+    }
+    &--phoneicon {
+        .iconcss_common();
+        .iconsmasking('/Public/img/telephone.svg');
+        .commonCss;
+    }
+    &--textarea {
+        width: 100%;
+    }
+    &--textinput {
+        width: 100%;
+        border-radius: 10px;
+        padding: 12px;
+        padding-left: 40px;
+        box-sizing: border-box;
+        &:focus {
+            outline: none;
+        }
+    }
+    &--submitbtn {
+        background: @primaryColor;
+        text-transform: uppercase;
+        padding: 15px 50px;
+        border-radius: 30px;
+        color: #fff;
+        border: 0;
+        font-weight: bold;
+    }
+}

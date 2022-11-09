@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "displayLabel": "Home",
+        "key": "home",
+        "urlName": "/",
+        "faIcon": "leftbar__wrapper--homeicon"
+    },
+    {
+        "id": 2,
+        "displayLabel": "About",
+        "key": "aboutus",
+        "urlName": "/aboutus",
+        "faIcon": "leftbar__wrapper--abouticon"
+    },
+    {
+        "id": 3,
+        "displayLabel": "Skills",
+        "key": "technology",
+        "urlName": "/skills",
+        "faIcon": "leftbar__wrapper--globalicon"
+    },
+    {
+        "id": 4,
+        "displayLabel": "Portfolio",
+        "key": "portfolio",
+        "urlName": "/portfolio",
+        "faIcon": "leftbar__wrapper--workicon"
+    },
+    {
+        "id": 5,
+        "displayLabel": "Contact Us",
+        "key": "contactus",
+        "urlName": "/contactus",
+        "faIcon": "leftbar__wrapper--contacticon"
+    },
+    {
+        "id": 6,
+        "displayLabel": "Blog",
+        "key": "blog",
+        "urlName": "/blog",
+        "faIcon": "leftbar__wrapper--blogicon"
+    }
+]

@@ -1,0 +1,177 @@
+[
+    {
+        "id": 1,
+        "displayLabel": "HTML",
+        "key": "html",
+        "imgUrl": "./public/img/skills/l1.png",
+        "experience": "4+"
+    },
+    {
+        "id": 2,
+        "displayLabel": "CSS",
+        "key": "css",
+        "imgUrl": "./public/img/skills/l3.png",
+        "experience": "4+"
+    },
+    {
+        "id": 3,
+        "displayLabel": "HTML5",
+        "key": "html5",
+        "imgUrl": "./public/img/skills/l2.png",
+        "experience": "4+"
+    },
+    {
+        "id": 4,
+        "displayLabel": "CSS3",
+        "key": "css3",
+        "imgUrl": "./public/img/skills/l4.png",
+        "experience": "4+"
+    },
+    {
+        "id": 5,
+        "displayLabel": "Bootstrap (B3) (B4)",
+        "key": "bootstrap",
+        "imgUrl": "./public/img/skills/l5.png",
+        "experience": "4+"
+    },
+    {
+        "id": 6,
+        "displayLabel": "Javascript",
+        "key": "javascript",
+        "imgUrl": "./public/img/skills/l6.png",
+        "experience": "3+"
+    },
+    {
+        "id": 7,
+        "displayLabel": "ES6",
+        "key": "es6",
+        "imgUrl": "./public/img/skills/l7.png",
+        "experience": "2+"
+    },
+    {
+        "id": 8,
+        "displayLabel": "ReactJs",
+        "key": "reactjs",
+        "imgUrl": "./public/img/skills/l8.png",
+        "experience": "2+"
+    },
+    {
+        "id": 9,
+        "displayLabel": "Node Js",
+        "key": "nodejs",
+        "imgUrl": "./public/img/skills/l9.png",
+        "experience": "2+"
+    },
+    {
+        "id": 10,
+        "displayLabel": "Jest",
+        "key": "jest",
+        "imgUrl": "./public/img/skills/l10.png",
+        "experience": "2+"
+    },
+    {
+        "id": 11,
+        "displayLabel": "Redux",
+        "key": "redux",
+        "imgUrl": "./public/img/skills/l11.png",
+        "experience": "2+"
+    },
+    {
+        "id": 12,
+        "displayLabel": "Fastify",
+        "key": "fastify",
+        "imgUrl": "./public/img/skills/l12.png",
+        "experience": "2+"
+    },
+    {
+        "id": 13,
+        "displayLabel": "Express",
+        "key": "express",
+        "imgUrl": "./public/img/skills/l13.png",
+        "experience": "2+"
+    },
+    {
+        "id": 14,
+        "displayLabel": "EJS",
+        "key": "ejs",
+        "imgUrl": "./public/img/skills/l14.png",
+        "experience": "2+"
+    },
+    {
+        "id": 15,
+        "displayLabel": "NPM",
+        "key": "npm",
+        "imgUrl": "./public/img/skills/l5.png",
+        "experience": "2+"
+    },
+    {
+        "id": 16,
+        "displayLabel": "Bit Bucket",
+        "key": "bitbucket",
+        "imgUrl": "./public/img/skills/l16.png",
+        "experience": "2+"
+    },
+    {
+        "id": 17,
+        "displayLabel": "Github",
+        "key": "github",
+        "imgUrl": "./public/img/skills/l17.png",
+        "experience": "2+"
+    },
+    {
+        "id": 18,
+        "displayLabel": "Postman",
+        "key": "postman",
+        "imgUrl": "./public/img/skills/l18.png",
+        "experience": "2+"
+    },
+    {
+        "id": 19,
+        "displayLabel": "Trello",
+        "key": "trello",
+        "imgUrl": "./public/img/skills/l19.png",
+        "experience": "2+"
+    },
+    {
+        "id": 20,
+        "displayLabel": "AWS",
+        "key": "aws",
+        "imgUrl": "./public/img/skills/l20.png",
+        "experience": "2+"
+    },
+    {
+        "id": 21,
+        "displayLabel": "Jenkins",
+        "key": "jenkins",
+        "imgUrl": "./public/img/skills/l21.png",
+        "experience": "2+"
+    },
+    {
+        "id": 22,
+        "displayLabel": "Visual Studio",
+        "key": "visualstudio",
+        "imgUrl": "./public/img/skills/l22.png",
+        "experience": "2+"
+    },
+    {
+        "id": 23,
+        "displayLabel": "Photo Shop",
+        "key": "photoshop",
+        "imgUrl": "./public/img/skills/l23.png",
+        "experience": "4+"
+    },
+    {
+        "id": 24,
+        "displayLabel": "Illustrator",
+        "key": "illustrator",
+        "imgUrl": "./public/img/skills/l24.png",
+        "experience": "4+"
+    },
+    {
+        "id": 25,
+        "displayLabel": "CorelDRAW",
+        "key": "coreldraw",
+        "imgUrl": "./public/img/skills/l25.png",
+        "experience": "4+"
+    }
+]

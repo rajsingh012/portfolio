@@ -1,0 +1,51 @@
+@import './_variable.less';
+
+.rightbar__wrapper {
+    &--section {
+        text-align: center;
+        padding: 100px;
+    }
+    &--profileimg {
+        width: 300px;
+        border-radius: 50%;
+        border: 2px dotted @primaryColor;
+    }
+    &--heading {
+        margin-top: 15px;
+        font-size: 25px;
+        text-transform: uppercase;
+    }
+    &--details {
+        margin-left: 10px;
+        font-size: 14px;
+        font-weight: 300;
+    }
+    &--name {
+        margin-left: 10px;
+        color: @primaryColor;
+    }
+    &--paragraph {
+        font-size: 13px;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    &--aboutbtn {
+        padding: 15px 40px;
+        border-radius: 30px;
+        font-size: 16px;
+        text-transform: uppercase;
+        margin-top: 20px;
+        border: 0;
+        cursor: pointer;
+        background: @primaryColor;
+        color: #fff;
+        transition: all .2s ease;
+        transform: scale(1);
+        display: inline-block;
+        text-decoration: none;
+        &:hover {
+            transition: all .2s ease;
+            transform: scale(1.03);
+        }
+    }
+}

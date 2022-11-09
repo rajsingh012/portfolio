@@ -1,0 +1,62 @@
+@import './_variable.less';
+
+.table__data {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    &--heading {
+        border: 1px solid @tableBorder;
+        text-align: left;
+        padding: 8px;
+        }
+    &--row:nth-child(even) {
+        background-color: @hoverBgColor;
+    }
+    &--headrow {
+        background: @primaryColor;
+    }
+  }
+  .skills__section {
+      width: 100%;
+      padding: 20px;
+      text-align: center;
+      height: 80vh;
+      overflow: scroll;
+      padding-bottom: 50px;
+      &--wrapper {
+        margin-top: 30px;
+    }
+    &--slickbox {
+        box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.1);
+        margin: 10px;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: @boxShadow;
+    }
+    &--expyear {
+        margin-bottom: 8px;
+        font-size: 30px;
+        font-weight: 600;
+        color: @primaryColor;
+    }
+    &--namelang {
+        font-weight: normal;
+    }
+    &--skilllogo {
+        max-width: 70px;
+    }
+    &--imgdiv {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    &--slickwrap {
+        margin-bottom: 30px;
+        .slick-prev {
+            left: -18px;
+        }
+        .slick-next {
+            right: -18px;
+        }
+    }
+  }

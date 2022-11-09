@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "displayLabel": "YEARS OF EXPERIENCE",
+        "key": "experience",
+        "value": "4"
+    },
+    {
+        "id": 2,
+        "displayLabel": "COMPLETED PROJECTS",
+        "key": "completed",
+        "value": "20"
+    },
+    {
+        "id": 3,
+        "displayLabel": "HAPPY CUSTOMERS",
+        "key": "customers",
+        "value": "81"
+    },
+    {
+        "id": 4,
+        "displayLabel": "AWARDS WON",
+        "key": "awards",
+        "value": "5"
+    }
+]
